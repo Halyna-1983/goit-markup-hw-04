@@ -96,33 +96,14 @@ ul {
     margin-left: 50px;
 }
 
-/* .mail::before {
-    display: inline-block;
-    content: "";
-    width: 16px;
-    height: 12px;
-    margin-right: 10px;
-
-    background-image: url(../img/envelope\ \(hover\).svg);
-} */
-
-/* .phone::before {
-    display: inline-block;
-    content: "";
-    width: 10px;
-    height: 16px;
-    margin-right: 10px;
-
-    background-image: url(../img/phone.svg);
-} */
-
 .site-nav .item + .item {
    margin-left: 50px;
 }
 
-/* .site-nav .item {
-    background-color: chocolate;
-   } */
+/* .item-icon {
+    align-items: center;
+    justify-content: center;
+} */
 
 .site-nav {
     display: flex;
