@@ -96,7 +96,7 @@ ul {
     margin-left: 50px;
 }
 
-.mail::before {
+/* .mail::before {
     display: inline-block;
     content: "";
     width: 16px;
@@ -104,9 +104,9 @@ ul {
     margin-right: 10px;
 
     background-image: url(../img/envelope\ \(hover\).svg);
-}
+} */
 
-.phone::before {
+/* .phone::before {
     display: inline-block;
     content: "";
     width: 10px;
@@ -114,7 +114,7 @@ ul {
     margin-right: 10px;
 
     background-image: url(../img/phone.svg);
-}
+} */
 
 .site-nav .item + .item {
    margin-left: 50px;
@@ -201,6 +201,20 @@ ul {
     margin-top: 0;
     padding-bottom: 95px; 
     /* background-color: var(--background-color-grey); */
+}
+
+.features-icon {
+    background-color: #F5F4FA;
+    margin-right: 30px;
+    margin-bottom: 30px;
+
+    width: 270px;
+    height: 120px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
 }
 
 .features-list {
@@ -327,17 +341,37 @@ ul {
     border-radius: 0px 0px 4px 4px;
 }
 
-.name-flex::after {
-    display: inline-block;
-    content: '';
-    height: 44px;
-    width: 44px;
-    background-image: url(../img/instagram.svg);
-    /* background-image: url(../img/twitter\ 1.svg); */
-    background-color: #red;
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
+.social-team {
+    display: flex;
+    padding: 0;
+
+    width: 210px;
+    height: 45px;
+
+    margin-top: 16px;
+    margin-bottom: 30px;
+    margin-right: 32px;
+    margin-left: 32px;
+}
+
+.social-team:last-child {
+    margin-right: 0;
+}
+
+.social-link {
+    display: inline-flex;
+
+    background-color: #fff;
     border-radius: 50%;
+
+    text-align: center;
+    align-items: flex-start;
+   
+    width: 45px;
+    height: 45px;
+
+    justify-content: center;
+    align-items: center;
 }
 
 .features-title-flex .name-flex:last-child {
@@ -359,7 +393,7 @@ ul {
 
  .team-occupation {
     margin-top: 0;
-    margin-bottom: 30px;
+    /* margin-bottom: 30px; */
 
     color: var(--primary-text-color);
 
@@ -397,6 +431,8 @@ ul {
 
 .clients-name:last-child {
     margin-right: 0;
+    padding: 20px 40px;
+    align-items: center;
 }
 
 .works {
@@ -562,7 +598,6 @@ address:hover, address:focus {
 }
 
 .contact-block {
-   
     outline: 1px solid lawngreen;
     padding-right: 15px;
     padding-left: 15px;
@@ -574,9 +609,35 @@ address:hover, address:focus {
 }
 
 .social {
-    display: flex;
-    flex-wrap: wrap;
+    display: inline-block;
     padding-right: 0;
     padding-left: 0;
 
+    width: 45px;
+    height: 45px;
+}
+
+.social-display {
+    display: flex;
+    padding: 0;
+}
+
+.social-icon {
+    display: inline-flex;
+
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+
+    /* text-align: center;
+    align-items: flex-start; */
+    border: none;
+
+    width: 44px;
+    height: 44px;
+    margin-right: 10px;
+    margin-top: 20px;
+    margin-bottom: 100px;
+
+    justify-content: center;
+    align-items: center;
 }
