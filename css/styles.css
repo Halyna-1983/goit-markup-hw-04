@@ -335,6 +335,18 @@ ul {
     margin-left: 32px;
 }
 
+.social-link:hover {
+    background-color: #2196F3;
+}
+
+.social-link-icon {
+    fill: #AFB1B8;
+}
+
+.social-link-icon:hover {
+    fill: #ffffff;
+}
+
 .social-team:last-child {
     margin-right: 0;
 }
