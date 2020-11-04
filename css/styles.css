@@ -419,13 +419,20 @@ ul {
     border: 1px solid #AFB1B8;
     box-sizing: border-box;
     border-radius: 4px;
-
 }
 
 .clients-name:last-child {
     margin-right: 0;
     padding: 20px 40px;
     align-items: center;
+}
+
+.clients-name-icon {
+    fill: #AFB1B8;
+}
+
+.clients-name-icon:hover {
+    fill: #2196F3;
 }
 
 .works {
