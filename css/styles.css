@@ -601,6 +601,13 @@ address:hover, address:focus {
     outline: 1px solid lawngreen;
     padding-right: 15px;
     padding-left: 15px;
+    /* margin-top: 0;
+    margin-bottom: 0; */
+}
+
+.contact-block-title {
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 .footer-container {
@@ -627,6 +634,7 @@ address:hover, address:focus {
 
     background-color: rgba(0, 0, 0, 0.1);
     border-radius: 50%;
+    fill: #FFFFFF;
 
     /* text-align: center;
     align-items: flex-start; */
@@ -640,4 +648,8 @@ address:hover, address:focus {
 
     justify-content: center;
     align-items: center;
+}
+
+.social-icon:hover {
+    background-color: #2196F3;
 }
