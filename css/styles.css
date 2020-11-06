@@ -20,6 +20,7 @@ body {
     color: var(--primary-title-color);
     /* background-color: var(--background-color-grey); */
     font-family: Roboto, sans-serif;
+    margin: 0;
 }
 
 .container {
@@ -87,15 +88,14 @@ ul {
     display: flex;
 }
 
-.auth-nav-list:hover {
+/* .auth-nav-list:hover {
     color: #2196F3;
-}
+} */
 
 .display-flex {
     display: flex;
     align-items: center;
 }
-
 
 .auth-nav-list .item + .item {
     margin-left: 50px;
@@ -111,14 +111,14 @@ ul {
     align-content: center;
 }
 
-.item-icon:hover {
-    fill: #2196F3;   
+.item:hover .item-icon {
+    fill: #2196F3;
+    color: #2196F3;
 }
 
 .site-nav {
     display: flex;
     margin-left: 95px;
-
 }
 
 /* навігація сторінки */
@@ -129,8 +129,6 @@ ul {
 .link:hover {
     color: #2196F3;
 }
-
-
 
 .site-nav .link {
     padding-top: 32px;
@@ -352,16 +350,8 @@ ul {
     margin-left: 32px;
 }
 
-.social-link:hover {
-    background-color: #2196F3;
-}
-
 .social-link-icon {
     fill: #AFB1B8;
-}
-
-.social-link-icon:hover {
-    fill: #ffffff;
 }
 
 .social-team:last-child {
@@ -382,6 +372,15 @@ ul {
 
     justify-content: center;
     align-items: center;
+}
+
+.social-link:hover .social-link-icon {
+    fill: white;
+    background-color: #2196F3;
+    }
+
+.social-link:hover {
+    background-color: #2196F3;
 }
 
 .features-title-flex .name-flex:last-child {
@@ -444,16 +443,16 @@ ul {
     align-items: center;
 }
 
-.clients-name:hover {
-    border-color:  #2196F3;
-}
-
 .clients-name-icon {
     fill: #AFB1B8;
 }
 
-.clients-name-icon:hover {
-    fill: #2196F3;
+.clients-name:hover {
+    border-color:  #2196F3;
+}
+
+.clients-name:hover .clients-name-icon {
+   fill: #2196F3;
 }
 
 .works {
